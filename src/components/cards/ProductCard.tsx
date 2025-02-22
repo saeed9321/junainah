@@ -49,7 +49,7 @@ export function ProductCard({
             {/* Quick Add Icon */}
             <button
                 className="absolute top-2 right-2 p-2 z-10 hover:border hover:bg-white hover:rounded-full hover:opacity-100 hover:z-50"
-                onClick={() => addToCart({ id, name, price })}
+                onClick={() => addToCart({ id, name, price, image })}
             >
                 <PlusCircle opacity={0.4} />
             </button>

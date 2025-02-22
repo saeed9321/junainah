@@ -18,13 +18,13 @@ export function BookingCalendar() {
         <div className="max-w-4xl mx-auto pt-44">
             <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                    <h3 className="text-xl font-semibold mb-4">Select Farm</h3>
+                    <h3 className="text-xl font-semibold mb-4 text-white">Select Farm</h3>
                     <div className="space-y-2">
                         {farms.map(farm => (
                             <Button
                                 key={farm.id}
                                 variant={selectedFarm === farm.name ? "default" : "outline"}
-                                className="w-full text-left justify-start"
+                                className="w-full text-left justify-start bg-gray-100"
                                 onClick={() => setSelectedFarm(farm.name)}
                             >
                                 {farm.name}
@@ -34,7 +34,7 @@ export function BookingCalendar() {
                 </div>
 
                 <div>
-                    <h3 className="text-xl font-semibold mb-4">Select Date</h3>
+                    <h3 className="text-xl font-semibold mb-4 text-white">Select Date</h3>
                     <Calendar
                         mode="single"
                         selected={date}

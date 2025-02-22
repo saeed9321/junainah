@@ -4,9 +4,9 @@ import { RecentBookings } from "@/components/dashboard/RecentBookings";
 export default function DashboardPage() {
     return (
         <PageLayout
-            headerVariant="light"
         >
-            <div className="max-w-6xl mx-auto mt-32 ">
+            {/* <div className="max-w-6xl mx-auto mt-32 "> */}
+            <div className="min-h-screen px-4 pt-36 bg-gradient-to-b from-black/90 to-green-100">
                 <div className="grid md:grid-cols-3 gap-8">
                     <div className="md:col-span-2">
                         <h2 className="text-2xl font-semibold mb-4">Recent Bookings</h2>

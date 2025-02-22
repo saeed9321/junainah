@@ -17,14 +17,24 @@ interface Farm {
 
 const farms: Farm[] = [
     {
-        name: "Green Valley Dairy",
+        name: "Rose Farm",
         category: "Dairy Farm",
-        image: "/images/hero/farm-1.jpg",
+        image: "/images/farms/Rose.jpeg",
     },
     {
-        name: "Sunrise Orchards",
+        name: "Banana Farm",
         category: "Fruit Farm",
-        image: "/images/hero/farm-2.jpg",
+        image: "/images/farms/banana.jpg",
+    },
+    {
+        name: "Dates Farm",
+        category: "Fruit Farm",
+        image: "/images/farms/Date.jpg",
+    },
+    {
+        name: "Pomegranate Farm",
+        category: "Fruit Farm",
+        image: "/images/farms/pomegranate.jpg",
     },
     // Add more farms as needed
 ];

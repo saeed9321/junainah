@@ -17,6 +17,7 @@ export default function BookingDetailsPage({ params }: { params: { id: string } 
         <PageLayout
             headerVariant="light"
         >
+
             <div className="mt-36 max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8">
                 <div className="space-y-6">
                     <div className="flex justify-between items-start">

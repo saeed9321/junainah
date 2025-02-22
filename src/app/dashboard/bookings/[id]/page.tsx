@@ -15,10 +15,10 @@ export default function BookingDetailsPage({ params }: { params: { id: string } 
 
     return (
         <PageLayout
-            title="Booking Details"
-            description="View your booking information"
+            headerVariant="light"
         >
-            <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8">
+
+            <div className="mt-36 max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8">
                 <div className="space-y-6">
                     <div className="flex justify-between items-start">
                         <div>
